@@ -10,15 +10,21 @@
 
 
 ```
-├─Generate Maze
+├─01.Orientation
+├─02.vector
+├─03.LinkedList
+├─04.Generate Maze
 │  ├─Binary Tree Algorithm
 │  └─Side Winder Algorithm
-├─LinkedList
-├─Move Player Randomly
-├─Orientation
-├─Right hand
-├─Stack&Queue
-└─vector
+├─05.Move Player Randomly
+├─06.Right hand
+├─07.Stack&Queue
+├─08.Graph
+├─09.DFS&BFS
+├─10.Dijkstra
+├─11.tree&heap
+├─12.Priority queue
+└─13.A Star
 ```
 
 ## Right hand Algorithm
