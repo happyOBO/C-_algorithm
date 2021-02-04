@@ -1,7 +1,5 @@
 # C# algorithm with Maze
 
-
-
 ## Visual Studio 디버깅 사용법
 
 - 그냥 컴파일 후 빌드는 `F5`
@@ -26,3 +24,13 @@
 ## Right hand Algorithm
 
 <img src="./asset/light_hand_alg.gif" width="300">
+
+## BFS Algorithm
+
+<img src="./asset/bfs_algorithm.gif" width="300">
+
+
+## A* Algorithm
+
+<img src="./asset/a_star_algorithm.gif" width="300">
+
