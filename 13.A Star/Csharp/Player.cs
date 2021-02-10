@@ -65,6 +65,8 @@ namespace Csharp
             int[] cost = new int[] { 10, 10, 10, 10, 14, 14, 14, 14 };
             Pos[,] parent = new Pos[_board.Size, _board.Size];
 
+            // 다익스트라와 bfs 모두 사방팔방으로 다 탐색한다.
+            // 하지만, A*는 목적지와 가까워지는 방향으로 우선적으로 탐색한다.
             // 점수 매기기
             // F = G + H
             // F = 최종 점수( 작을 수록 좋음, 경로에 따라 달라짐)
