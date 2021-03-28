@@ -1,0 +1,13 @@
+E:\happyOBO\Documents\Github\CSharp_algorithm\00.basic\CSharp\CSharp\bin\Debug\netcoreapp3.1\CSharp.exe
+E:\happyOBO\Documents\Github\CSharp_algorithm\00.basic\CSharp\CSharp\bin\Debug\netcoreapp3.1\CSharp.deps.json
+E:\happyOBO\Documents\Github\CSharp_algorithm\00.basic\CSharp\CSharp\bin\Debug\netcoreapp3.1\CSharp.runtimeconfig.json
+E:\happyOBO\Documents\Github\CSharp_algorithm\00.basic\CSharp\CSharp\bin\Debug\netcoreapp3.1\CSharp.runtimeconfig.dev.json
+E:\happyOBO\Documents\Github\CSharp_algorithm\00.basic\CSharp\CSharp\bin\Debug\netcoreapp3.1\CSharp.dll
+E:\happyOBO\Documents\Github\CSharp_algorithm\00.basic\CSharp\CSharp\bin\Debug\netcoreapp3.1\CSharp.pdb
+E:\happyOBO\Documents\Github\CSharp_algorithm\00.basic\CSharp\CSharp\obj\Debug\netcoreapp3.1\CSharp.csprojAssemblyReference.cache
+E:\happyOBO\Documents\Github\CSharp_algorithm\00.basic\CSharp\CSharp\obj\Debug\netcoreapp3.1\CSharp.AssemblyInfoInputs.cache
+E:\happyOBO\Documents\Github\CSharp_algorithm\00.basic\CSharp\CSharp\obj\Debug\netcoreapp3.1\CSharp.AssemblyInfo.cs
+E:\happyOBO\Documents\Github\CSharp_algorithm\00.basic\CSharp\CSharp\obj\Debug\netcoreapp3.1\CSharp.csproj.CoreCompileInputs.cache
+E:\happyOBO\Documents\Github\CSharp_algorithm\00.basic\CSharp\CSharp\obj\Debug\netcoreapp3.1\CSharp.dll
+E:\happyOBO\Documents\Github\CSharp_algorithm\00.basic\CSharp\CSharp\obj\Debug\netcoreapp3.1\CSharp.pdb
+E:\happyOBO\Documents\Github\CSharp_algorithm\00.basic\CSharp\CSharp\obj\Debug\netcoreapp3.1\CSharp.genruntimeconfig.cache
