@@ -3,43 +3,65 @@ using System.Collections.Generic;
 
 namespace CSharp
 {
-    abstract class Monster
+
+    enum ItemType
     {
-        public abstract void Shout();
+        Weapon,
+        Armor,
+        Amulet,
+        Ring
     }
 
-    class Orc : Monster
-    {
-        public override void Shout()
-        {
-            Console.WriteLine("록타르 오가르");
-        }
-    }
 
-    abstract class Flyable
+    enum Rarity
     {
-        public abstract void Fly();
+        Normal,
+        Uncommon,
+        Rare
     }
-
-    class Skeleton : Monster
+    class Item
     {
-        public override void Shout()
-        {
-            Console.WriteLine("끄에엑");
-        }
+        public ItemType ItemType;
+        public Rarity Rarity;
 
     }
-
 
     class Program
     {
+        static List<Item> _items = new List<Item>();
 
+        delegate bool ItemSelector(Item item);
 
+        static Item FindItem(ItemSelector selector)
+        {
+            foreach (Item item in _items)
+            {
+                if (selector(item))
+                    return item;
+            }
+            return null;
+        }
+
+        static bool IsWeapon(Item item)
+        {
+            return item.ItemType == ItemType.Weapon;
+        }
 
         static void Main(string[] args)
         {
-            Monster m1 = new Monster(); // 에러!
-            Skeleton s1 = new Skeleton(); // 통과
+            _items.Add(new Item() { ItemType = ItemType.Weapon, Rarity = Rarity.Normal });
+            _items.Add(new Item() { ItemType = ItemType.Armor, Rarity = Rarity.Uncommon });
+            _items.Add(new Item() { ItemType = ItemType.Ring, Rarity = Rarity.Rare });
+
+            Item item = FindItem(delegate (Item item)
+            {
+                return item.ItemType == ItemType.Weapon;
+            });
+
+            Func<Item, bool> selector = (Item item) => { return item.ItemType == ItemType.Weapon; };
+            Item item2 = FindItem(selector);
+            return;
+        
         }
     }
 }
