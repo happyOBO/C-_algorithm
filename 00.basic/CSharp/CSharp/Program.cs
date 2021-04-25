@@ -4,64 +4,36 @@ using System.Collections.Generic;
 namespace CSharp
 {
 
-    enum ItemType
-    {
-        Weapon,
-        Armor,
-        Amulet,
-        Ring
-    }
 
-
-    enum Rarity
-    {
-        Normal,
-        Uncommon,
-        Rare
-    }
-    class Item
-    {
-        public ItemType ItemType;
-        public Rarity Rarity;
-
-    }
 
     class Program
     {
-        static List<Item> _items = new List<Item>();
 
-        delegate bool ItemSelector(Item item);
 
-        static Item FindItem(ItemSelector selector)
+        delegate int OnClicked();
+        // 함수가 아니라 형식인데
+        // 함수 자체를 인자로 넘겨주는 그런 형식
+        // 반환은 int 입력은 : void
+
+        static int TestDelegate()
         {
-            foreach (Item item in _items)
-            {
-                if (selector(item))
-                    return item;
-            }
-            return null;
+            Console.WriteLine("hello dele");
+            return 0;
         }
 
-        static bool IsWeapon(Item item)
+
+        static int TestDelegate2()
         {
-            return item.ItemType == ItemType.Weapon;
+            Console.WriteLine("hello dele2");
+            return 0;
         }
 
         static void Main(string[] args)
         {
-            _items.Add(new Item() { ItemType = ItemType.Weapon, Rarity = Rarity.Normal });
-            _items.Add(new Item() { ItemType = ItemType.Armor, Rarity = Rarity.Uncommon });
-            _items.Add(new Item() { ItemType = ItemType.Ring, Rarity = Rarity.Rare });
+            OnClicked clicked = new OnClicked(TestDelegate);
+            clicked += TestDelegate2;
 
-            Item item = FindItem(delegate (Item item)
-            {
-                return item.ItemType == ItemType.Weapon;
-            });
-
-            Func<Item, bool> selector = (Item item) => { return item.ItemType == ItemType.Weapon; };
-            Item item2 = FindItem(selector);
-            return;
-        
+            clicked();
         }
     }
 }
