@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection;
 
 namespace CSharp
 {
@@ -10,30 +11,35 @@ namespace CSharp
     {
 
 
-        delegate int OnClicked();
-        // 함수가 아니라 형식인데
-        // 함수 자체를 인자로 넘겨주는 그런 형식
-        // 반환은 int 입력은 : void
-
-        static int TestDelegate()
+        static int Find()
         {
-            Console.WriteLine("hello dele");
+
+
             return 0;
         }
-
-
-        static int TestDelegate2()
-        {
-            Console.WriteLine("hello dele2");
-            return 0;
-        }
-
         static void Main(string[] args)
         {
-            OnClicked clicked = new OnClicked(TestDelegate);
-            clicked += TestDelegate2;
 
-            clicked();
+            int? number = null;
+            number = 3;
+            //int a = number; // 오류 발생
+            //int a = number.Value;
+
+            //number = null;
+            //int a = number.Value; // 컴파일 후 오류 발생
+
+
+            if(number != null)
+            {
+                int a = number.Value;
+                Console.WriteLine(a);
+            }
+
+            if(number.HasValue)
+            {
+                int a = number.Value;
+                Console.WriteLine(a);
+            }
         }
     }
 }
