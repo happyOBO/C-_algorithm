@@ -1,0 +1,13 @@
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\BruteForce\obj\Debug\netcoreapp3.1\BruteForce.csprojAssemblyReference.cache
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\BruteForce\obj\Debug\netcoreapp3.1\BruteForce.AssemblyInfoInputs.cache
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\BruteForce\obj\Debug\netcoreapp3.1\BruteForce.AssemblyInfo.cs
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\BruteForce\obj\Debug\netcoreapp3.1\BruteForce.csproj.CoreCompileInputs.cache
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\BruteForce\bin\Debug\netcoreapp3.1\BruteForce.exe
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\BruteForce\bin\Debug\netcoreapp3.1\BruteForce.deps.json
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\BruteForce\bin\Debug\netcoreapp3.1\BruteForce.runtimeconfig.json
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\BruteForce\bin\Debug\netcoreapp3.1\BruteForce.runtimeconfig.dev.json
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\BruteForce\bin\Debug\netcoreapp3.1\BruteForce.dll
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\BruteForce\bin\Debug\netcoreapp3.1\BruteForce.pdb
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\BruteForce\obj\Debug\netcoreapp3.1\BruteForce.dll
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\BruteForce\obj\Debug\netcoreapp3.1\BruteForce.pdb
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\BruteForce\obj\Debug\netcoreapp3.1\BruteForce.genruntimeconfig.cache

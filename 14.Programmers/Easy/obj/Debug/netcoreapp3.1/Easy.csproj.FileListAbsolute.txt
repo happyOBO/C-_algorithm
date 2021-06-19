@@ -1,0 +1,13 @@
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\Easy\bin\Debug\netcoreapp3.1\Easy.exe
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\Easy\bin\Debug\netcoreapp3.1\Easy.deps.json
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\Easy\bin\Debug\netcoreapp3.1\Easy.runtimeconfig.json
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\Easy\bin\Debug\netcoreapp3.1\Easy.runtimeconfig.dev.json
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\Easy\bin\Debug\netcoreapp3.1\Easy.dll
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\Easy\bin\Debug\netcoreapp3.1\Easy.pdb
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\Easy\obj\Debug\netcoreapp3.1\Easy.csprojAssemblyReference.cache
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\Easy\obj\Debug\netcoreapp3.1\Easy.AssemblyInfoInputs.cache
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\Easy\obj\Debug\netcoreapp3.1\Easy.AssemblyInfo.cs
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\Easy\obj\Debug\netcoreapp3.1\Easy.csproj.CoreCompileInputs.cache
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\Easy\obj\Debug\netcoreapp3.1\Easy.dll
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\Easy\obj\Debug\netcoreapp3.1\Easy.pdb
+E:\happyOBO\Documents\Github\CSharp_algorithm\14.Programmers\Easy\obj\Debug\netcoreapp3.1\Easy.genruntimeconfig.cache
