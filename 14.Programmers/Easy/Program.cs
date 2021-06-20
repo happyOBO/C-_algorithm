@@ -5,12 +5,15 @@ namespace Easy
 {
     class Program
     {
+
+        // 백준 2992 : 크면서 작은 수
         static int FindCandidateCard(int curr_num, ref List<int> card_storage)
         {
             int candidate_card = int.MaxValue; // 최대값으로 초기화
 
             for(int idx = 0; idx < card_storage.Count ; idx++)
             {
+                // card_storage[idx] 가 현재 숫자보다 크고, 이전에 후보군에 적합했던 숫자(candidate_card) 보다 작은면 추가
                 if (card_storage[idx] > curr_num && candidate_card > card_storage[idx])
                     candidate_card = card_storage[idx];
             }
@@ -36,8 +39,6 @@ namespace Easy
 
             return result;
         }
-
-
 
         static void Main(string[] args)
         {
